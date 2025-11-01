@@ -1,0 +1,45 @@
+# _config.yml
+title: "Ramblings"
+description: "A collection of thoughts, ideas, and random musings."
+baseurl: "" # leave empty if this is a user/organization site
+url: "https://yourusername.github.io" # replace with your GitHub Pages URL
+
+author:
+  name: "Your Name"
+  email: "you@example.com"
+  github: "yourusername"
+  twitter: "yourhandle"
+
+# Theme (choose one below or add a custom one)
+theme: minima
+# remote_theme: pages-themes/cayman@v0.2.0  # Example of an alternate GitHub Pages theme
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+# Navigation links
+nav:
+  - title: "Home"
+    url: /
+  - title: "About"
+    url: /about
+  - title: "Posts"
+    url: /posts
+
+# Permalinks (pretty URLs)
+permalink: /:year/:month/:day/:title/
+
+# Social links for footer or theme integration
+social_links:
+  github: yourusername
+  rss: rss
+
+# Optional: Google Analytics, Disqus, etc.
+google_analytics: ""
+disqus: ""
+
+# Plugins supported by GitHub Pages
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
