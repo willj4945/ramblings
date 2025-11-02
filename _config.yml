@@ -7,34 +7,33 @@ baseurl: "/ramblings"
 author:
   name: "Will Johnson"
   github: "willj4945"
-  email: ""
-  twitter: ""
 
-theme: minima
-# remote_theme: pages-themes/cayman@v0.2.0  # You can switch themes later if you want a different look
+# Use a dark, modern theme
+remote_theme: vaibhavvikas/jekyll-theme-minimalistic
+color-scheme: auto  # auto/light/dark toggle based on system preference
 
+# Markdown & code highlighting
 markdown: kramdown
 highlighter: rouge
 
-# Optional display settings
+# Post URLs
+permalink: /:year/:month/:day/:title/
+
+# Pagination (optional)
 show_excerpts: true
 paginate: 5
 paginate_path: "/page:num"
 
-permalink: /:year/:month/:day/:title/
-
-social_links:
-  github: willj4945
-  rss: rss
-
+# Plugins (supported by GitHub Pages)
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-github-metadata
 
-# Optional analytics & comments
-google_analytics: ""
-disqus: ""
+# Social links (used by the theme footer)
+social_links:
+  github: willj4945
+  rss: rss
 
-# Optional: timezone for post dates
+# Optional: timezone for consistent post dates
 timezone: "America/New_York"
