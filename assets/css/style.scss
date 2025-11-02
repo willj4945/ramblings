@@ -1,0 +1,82 @@
+---
+---
+/* Import the theme correctly (no curly braces!) */
+@import "minimalistic";
+
+/* ---------------------------
+   Custom Dark & Widescreen Styles
+--------------------------- */
+
+/* Body background and text color */
+body {
+  background-color: #0d0d0d;
+  color: #e0e0e0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* Make main content wider on large screens */
+.main-content,
+.page-content {
+  width: 100%;
+  max-width: 1600px; /* expand layout for widescreen monitors */
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* Post content readability improvements */
+.post-content {
+  line-height: 1.7;
+  font-size: 1.05em;
+}
+
+/* Links */
+a {
+  color: #9fc9ff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #c0e4ff;
+  text-decoration: underline;
+}
+
+/* Header tweaks */
+header.site-header {
+  border-bottom: 1px solid #222;
+  padding-bottom: 0.5rem;
+}
+
+/* Footer tweaks */
+footer.site-footer {
+  border-top: 1px solid #222;
+  padding-top: 1rem;
+  color: #aaa;
+  font-size: 0.9em;
+}
+
+/* Buttons / call-to-action links */
+a.button {
+  display: inline-block;
+  background-color: #1a1a1a;
+  color: #9fc9ff;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  transition: background-color 0.2s ease;
+}
+
+a.button:hover {
+  background-color: #333;
+  color: #c0e4ff;
+}
+
+/* Optional: adjust font for really wide screens */
+@media (min-width: 1600px) {
+  .post-content {
+    font-size: 1.1em;
+  }
+}
+
+/* Optional: dark mode override if you want to force dark */
+:root {
+  color-scheme: dark;
+}
