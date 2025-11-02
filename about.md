@@ -1,10 +1,8 @@
 ---
 layout: page
-title: "About"
+title: "👋 About Me"
 permalink: /about/
 ---
-
-# 👋 About Me
 
 Hey there — I’m **Will Johnson**, a Security Engineer currently working in **DevSecOps**.  
 I focus on **security automation within GitLab**, moving compliance away from paper, and doing everything **as code**.

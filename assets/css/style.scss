@@ -6,11 +6,10 @@
    Custom Dark & Widescreen Styles
 --------------------------- */
 
-/* Body background and text color */
+/* Custom styles that complement minimalistic base */
 body {
-  background-color: #0d0d0d;
-  color: #e0e0e0;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
 }
 
 /* Make main content wider on large screens */
@@ -22,50 +21,45 @@ body {
   padding: 2rem;
 }
 
-/* Post content readability improvements */
-.post-content {
-  line-height: 1.7;
-  font-size: 1.05em;
-}
-
-/* Links */
-a {
-  color: #9fc9ff;
+/* Navbar utilities (the main navbar styling is lower or in base) */
+.nav-logo {
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: var(--accent);
   text-decoration: none;
 }
 
-a:hover {
-  color: #c0e4ff;
-  text-decoration: underline;
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.25rem;
+  margin: 0;
+  padding: 0;
 }
 
-/* Header tweaks */
-header.site-header {
-  border-bottom: 1px solid #222;
-  padding-bottom: 0.5rem;
+.nav-links a {
+  color: var(--text-primary);
+  text-decoration: none;
+  transition: color 0.12s ease;
 }
 
-/* Footer tweaks */
-footer.site-footer {
-  border-top: 1px solid #222;
-  padding-top: 1rem;
-  color: #aaa;
-  font-size: 0.9em;
+.nav-links a:hover {
+  color: var(--accent);
 }
 
 /* Buttons / call-to-action links */
 a.button {
   display: inline-block;
-  background-color: #1a1a1a;
-  color: #9fc9ff;
+  background-color: var(--button-bg);
+  color: var(--button-text);
   padding: 0.5rem 1rem;
-  border-radius: 5px;
-  transition: background-color 0.2s ease;
+  border-radius: 6px;
+  transition: transform 0.12s ease, filter 0.12s ease;
 }
 
 a.button:hover {
-  background-color: #333;
-  color: #c0e4ff;
+  transform: translateY(-1px);
+  filter: brightness(1.05);
 }
 
 /* Optional: adjust font for really wide screens */
@@ -80,42 +74,4 @@ a.button:hover {
   color-scheme: dark;
 }
 
-/* ---------------------------
-   Navbar Styles
---------------------------- */
-
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  max-width: 1600px;
-  margin: 0 auto;
-  padding: 1rem 2rem;
-  background-color: #0d0d0d;
-  border-bottom: 1px solid #222;
-}
-
-.nav-logo {
-  font-weight: bold;
-  font-size: 1.2rem;
-  color: #9fc9ff;
-  text-decoration: none;
-}
-
-.nav-links {
-  list-style: none;
-  display: flex;
-  gap: 1.5rem;
-  margin: 0;
-  padding: 0;
-}
-
-.nav-links a {
-  color: #e0e0e0;
-  text-decoration: none;
-  transition: color 0.2s ease;
-}
-
-.nav-links a:hover {
-  color: #9fc9ff;
-}
+/* (Legacy navbar block removed — using the variable-driven navbar earlier.) */

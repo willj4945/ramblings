@@ -8,9 +8,9 @@ author:
   name: "Will Johnson"
   github: "willj4945"
 
-# Use a dark, modern theme
-remote_theme: vaibhavvikas/jekyll-theme-minimalistic
-color-scheme: auto  # auto/light/dark toggle based on system preference
+# Theme configuration
+remote_theme: null # Using our custom minimalistic theme
+color-scheme: dark  # Using dark theme for better readability
 
 # Markdown & code highlighting
 markdown: kramdown

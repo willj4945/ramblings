@@ -1,10 +1,8 @@
 ---
 layout: page
-title: "Posts"
+title: "📰 All Posts"
 permalink: /posts/
 ---
-
-# 📰 All Posts
 
 Welcome to the archive of **Ramblings**.  
 Here you’ll find all my posts, notes, and experiments in chronological order.
