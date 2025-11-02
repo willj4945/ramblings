@@ -1,45 +1,40 @@
 # _config.yml
 title: "Ramblings"
-description: "A collection of thoughts, ideas, and random musings."
-baseurl: "" # leave empty if this is a user/organization site
-url: "https://yourusername.github.io" # replace with your GitHub Pages URL
+description: "Notes, ideas, and experiments — a place to ramble about what I’m building and learning."
+url: "https://willj4945.github.io"
+baseurl: "/ramblings"
 
 author:
-  name: "Your Name"
-  email: "you@example.com"
-  github: "yourusername"
-  twitter: "yourhandle"
+  name: "Will Johnson"
+  github: "willj4945"
+  email: ""
+  twitter: ""
 
-# Theme (choose one below or add a custom one)
 theme: minima
-# remote_theme: pages-themes/cayman@v0.2.0  # Example of an alternate GitHub Pages theme
+# remote_theme: pages-themes/cayman@v0.2.0  # You can switch themes later if you want a different look
 
-# Build settings
 markdown: kramdown
 highlighter: rouge
 
-# Navigation links
-nav:
-  - title: "Home"
-    url: /
-  - title: "About"
-    url: /about
-  - title: "Posts"
-    url: /posts
+# Optional display settings
+show_excerpts: true
+paginate: 5
+paginate_path: "/page:num"
 
-# Permalinks (pretty URLs)
 permalink: /:year/:month/:day/:title/
 
-# Social links for footer or theme integration
 social_links:
-  github: yourusername
+  github: willj4945
   rss: rss
 
-# Optional: Google Analytics, Disqus, etc.
-google_analytics: ""
-disqus: ""
-
-# Plugins supported by GitHub Pages
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-github-metadata
+
+# Optional analytics & comments
+google_analytics: ""
+disqus: ""
+
+# Optional: timezone for post dates
+timezone: "America/New_York"
