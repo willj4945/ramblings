@@ -1,5 +1,23 @@
 source "https://rubygems.org"
+
+# Core site engine
 gem "jekyll", "~> 4.4.1"
+
+# Theme (if you’re using minima or a forked version)
 gem "minima", "~> 2.5"
+
+# Common plugins
 gem "jekyll-feed", "~> 0.16"
 gem "jekyll-seo-tag", "~> 2.8"
+gem "jekyll-github-metadata"
+gem "jekyll-paginate"
+gem "faraday-retry"
+gem "fiddle"
+
+
+# Windows / time zone support
+gem "tzinfo", "~> 2.0"
+gem "tzinfo-data", "~> 1.2025"
+
+# Optional: silence the Ruby 3.5 logger warning
+gem "logger"

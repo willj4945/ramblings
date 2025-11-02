@@ -1,31 +1,32 @@
+# Ramblings
 
+> Notes, ideas, and experiments — a place to ramble about what I’m building and learning.
 
-<!--
-  <<< Author notes: Finish >>>
-  Review what we learned, ask for feedback, provide next steps.
--->
+Welcome to **Ramblings**, my personal blog and digital notebook.  
+Here, I share thoughts on technology, coding, design, privacy, and whatever else I happen to be exploring.  
+It’s a mix of in-progress experiments, reflections, and small write-ups about what I’m learning along the way.
 
-## Finish
+---
 
-_Congratulations friend, you've completed this course!_
+## 🌱 About
 
-<img src=https://octodex.github.com/images/constructocat2.jpg alt=celebrate width=300 align=right>
+This site is built using [GitHub Pages](https://pages.github.com/) and [Jekyll](https://jekyllrb.com/).  
+It’s designed to be simple, fast, and easy to maintain — a quiet corner of the web for my ongoing projects and musings.
 
-Your blog is now live and has been deployed!
+If you’re curious about the setup:
 
-Here's a recap of all the tasks you've accomplished in your repository:
+- **Theme:** [Minima](https://github.com/jekyll/minima) (default GitHub Pages theme)
+- **Markdown engine:** [Kramdown](https://kramdown.gettalong.org/)
+- **Hosting:** GitHub Pages
 
-- You enabled GitHub Pages.
-- You selected a theme using the config file.
-- You learned about proper directory format and file naming conventions in Jekyll.
-- You created your first blog post with Jekyll!
+---
 
-### What's next?
+## 🧭 Structure
 
-- Keep working on your GitHub Pages site... we love seeing what you come up with!
-- We'd love to hear what you thought of this course [in our discussion board](https://github.com/orgs/skills/discussions/categories/github-pages).
-- [Take another GitHub Skills course](https://github.com/skills).
-- [Read the GitHub Getting Started docs](https://docs.github.com/en/get-started).
-- To find projects to contribute to, check out [GitHub Explore](https://github.com/explore).
-
-
+```text
+.
+├── _posts/          # Blog posts
+├── _layouts/        # Page layouts (optional)
+├── _includes/       # Reusable snippets
+├── assets/          # Images, CSS, etc.
+└── _config.yml      # Site configuration

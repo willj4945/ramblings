@@ -1,5 +1,6 @@
-/* Import the theme correctly (no curly braces!) */
-@import "minimalistic";
+---
+---
+@use "minimalistic";
 
 /* ---------------------------
    Custom Dark & Widescreen Styles
@@ -77,4 +78,44 @@ a.button:hover {
 /* Optional: dark mode override if you want to force dark */
 :root {
   color-scheme: dark;
+}
+
+/* ---------------------------
+   Navbar Styles
+--------------------------- */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+  background-color: #0d0d0d;
+  border-bottom: 1px solid #222;
+}
+
+.nav-logo {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #9fc9ff;
+  text-decoration: none;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links a {
+  color: #e0e0e0;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.nav-links a:hover {
+  color: #9fc9ff;
 }

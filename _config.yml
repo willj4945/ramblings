@@ -35,5 +35,9 @@ social_links:
   github: willj4945
   rss: rss
 
+sass:
+  sass_dir: _sass
+  style: compressed
+
 # Optional: timezone for consistent post dates
 timezone: "America/New_York"
