@@ -8,8 +8,8 @@ permalink: /
 
 > Notes, ideas, and experiments — a place to ramble about what I’m building and learning.
 
-Welcome to **Ramblings** — my little corner of the web where I write about technology, code, privacy, hacking, and anything else that catches my attention.  
-This is a place for in-progress thoughts, personal experiments, and lessons I pick up along the way.
+Welcome to **Ramblings** — my corner of the web where I write about technology, coding, privacy, hacking, and anything else that catches my attention.  
+This is a space for in-progress thoughts, personal experiments, and lessons I pick up along the way.
 
 I don’t promise polished tutorials or perfect answers — just honest notes and ideas from my own learning process.
 
@@ -23,16 +23,19 @@ I don’t promise polished tutorials or perfect answers — just honest notes an
   <small><em>{{ post.date | date: "%B %d, %Y" }}</em> — {{ post.excerpt | strip_html | truncate: 160 }}</small>
 {% endfor %}
 
-[**Browse all posts →**](/posts)
+<p style="margin-top: 1em;">
+  <a href="/posts" class="button">Browse all posts →</a>
+</p>
 
 ---
 
 ## 🧠 About This Site
 
 **Ramblings** is built with [Jekyll](https://jekyllrb.com/) and hosted on [GitHub Pages](https://pages.github.com/).  
-The site is intentionally minimal — it’s more notebook than magazine, a space to think out loud and track what I’m learning.
+The design is intentionally minimal — it’s more notebook than magazine, a place to think out loud and track what I’m learning.
 
-If you’d like to follow along, check out my work on [GitHub](https://github.com/yourusername) or drop by occasionally to see what’s new.
+If you’d like to follow along, you can check out my projects on [GitHub](https://github.com/willj4945)  
+or stop by from time to time to see what’s new.
 
 ---
 
