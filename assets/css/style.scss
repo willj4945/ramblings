@@ -16,9 +16,17 @@ body {
 .main-content,
 .page-content {
   width: 100%;
-  max-width: 1600px; /* expand layout for widescreen monitors */
+  max-width: 68ch; /* keep content narrow for readability on wide screens */
   margin: 0 auto;
   padding: 2rem;
+}
+
+/* Slightly increase internal padding on very wide displays while keeping max-width */
+@media (min-width: 1600px) {
+  .main-content,
+  .page-content {
+    padding: 3rem;
+  }
 }
 
 /* Navbar utilities (the main navbar styling is lower or in base) */
