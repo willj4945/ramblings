@@ -29,6 +29,7 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-github-metadata
+  - jekyll-paginate
 
 # Social links (used by the theme footer)
 social_links:
@@ -38,6 +39,7 @@ social_links:
 sass:
   sass_dir: _sass
   style: compressed
+  implementation: sass
 
 # Optional: timezone for consistent post dates
 timezone: "America/New_York"
